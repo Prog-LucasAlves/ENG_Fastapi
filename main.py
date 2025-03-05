@@ -38,7 +38,7 @@ Base.metadata.create_all(bind=engine)
 # Modelo Pydantic para entrada de dados
 class UserCreate(BaseModel):
     name: str = Field(..., min_length=2, max_length=50)
-    email: str = Field(..., regex=r"'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'")
+    email: str = Field(..., pattern=r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
     password: str = Field(..., min_length=6)
 
 
