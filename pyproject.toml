@@ -22,7 +22,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.black]
-line-lenght = 79
+line-lenght = 88
 include = '\.piy?$'
 exclude = '''
 /(
