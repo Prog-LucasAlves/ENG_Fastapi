@@ -75,4 +75,4 @@ A API estará rodando em: **http://127.0.0.1:8000**
     - **Environment:** Python
     - **Build Command:** `pip install -r requirements.txt`
     - **Start Command:** ``bash start.sh`
-    ![IMG](../ENG_Fastapi/ìmage/render.png)
+    - ![IMG](../ENG_Fastapi/ìmage/render.png)
