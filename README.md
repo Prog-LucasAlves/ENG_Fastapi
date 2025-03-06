@@ -76,3 +76,6 @@ A API estará rodando em: **http://127.0.0.1:8000**
     - **Build Command:** `pip install -r requirements.txt`
     - **Start Command:** ``bash start.sh`
     - ![IMG](https://github.com/Prog-LucasAlves/ENG_Fastapi/blob/main/%C3%ACmage/render.png)
+5. Clique em **Deploy**
+
+Após o deploy, seu app estará disponível em um link gerado pelo Render.
