@@ -56,7 +56,7 @@ def get_db():
 @app.get("/", response_class=HTMLResponse)
 async def serve_frontend():
     with open("templates/index.html") as f:
-        return HTMLResponse(content=f.read(), status_code=200)
+        return HTMLResponse(content=f.read())
 
 
 @app.post("/items/", response_model=ItemCreate)
